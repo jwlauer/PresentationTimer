@@ -12,4 +12,4 @@ boot.py sets the ESP into AP mode with SSID "Presentation" and password "passwor
 
 Wiring
 ------
-The data pin for the WS2811 should be wired to Pin 4. Because 50 neopixels may overload the output from the EPS, power should be provided directly to the neopixels and should not be provided from ESP32/8266.
+The data pin for the WS2811 should be wired to Pin 4. Because 50 neopixels may overload the output from the ESP, power should be provided directly to the neopixels and should not be provided from ESP32/8266.
