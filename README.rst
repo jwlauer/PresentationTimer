@@ -1,7 +1,7 @@
 Presentation Timer
 ==================
 
-This repository includes MicroPython code for a presentation timer based on a 50-light string of WS2811 LEDs controlled by an ESP32 or ESP8266. 
+This repository includes MicroPython code for a presentation timer based on a 50-light string of WS2811 LEDs controlled by an ESP32 or ESP8266. I wrote this to help students in my classes avoid going beyond the alotted time when giving presentations. 
 
 timer.py controls the behavior of the leds, which light up at a rate that depends on a user-specified presentation time. Lights slowly light up until the 
 entire string is lighted when the presentation is supposed to end.  Lights are initially green but turn yellow when one minute is left and red when time is up.  They begin to flash 30 seconds past the presentation time.
