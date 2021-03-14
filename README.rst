@@ -8,7 +8,7 @@ entire string is lighted when the presentation is supposed to end.  Lights are i
 
 serverLEDtime.py serves a simple web page that asks a user for the presentation time and then calls the timer.py script with this time.
 
-boot.py sets the ESP into AP mode with SSID "Presentation" and password "password". A user who has logged into the AP can access the web interface by navigating to 192.168.4.1 using a browser. This should be possible from most cell phones, allowing the user to control the light strip remotely.
+boot.py sets the ESP into AP mode with SSID "Presentation" and password "password". A user who has logged into the AP can access the web interface by navigating to the ESP's IP address (192.168.4.1 worked for me--but try 192.168.1.1 as well) using a browser. This should be possible from most cell phones, allowing the user to control the light strip remotely.
 
 Wiring
 ------
