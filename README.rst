@@ -1,9 +1,9 @@
 Presentation Timer
 ==================
 
-This repository includes MicroPython code for a presentation timer based on a 50-light string of WS2811 LEDs controlled by an ESP32 or ESP8266. I wrote this to help students in my classes avoid going beyond the alotted time when giving presentations. 
+This repository includes MicroPython code for a presentation timer based on a 50-light string of WS2811 LEDs controlled by an ESP32 or ESP8266. I wrote this to help students in my classes avoid going beyond the alotted time when giving presentations.
 
-timer.py controls the behavior of the leds, which light up at a rate that depends on a user-specified presentation time. Lights slowly light up until the 
+timer.py controls the behavior of the leds, which light up at a rate that depends on a user-specified presentation time. Lights slowly light up until the
 entire string is lighted when the presentation is supposed to end.  Lights are initially green but turn yellow when one minute is left and red when time is up.  They begin to flash 30 seconds past the presentation time.
 
 serverLEDtime.py serves a simple web page that asks a user for the presentation time and then calls the timer.py script with this time.
@@ -13,3 +13,5 @@ boot.py sets the ESP into AP mode with SSID "Presentation" and password "passwor
 Wiring
 ------
 The data pin for the WS2811 should be wired to Pin 4. Because 50 neopixels may overload the output from the ESP, power should be provided directly to the neopixels and should not be provided from ESP32/8266.
+
+This is a test.
